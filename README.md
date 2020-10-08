@@ -1,5 +1,5 @@
-1.pip安装requirements.txt中需要的环境
-2.需要下载KITTI2015数据集，对应的read_data.py文件只能读取KITTI2015数据集
-3.KITTI2015数据集下载需要翻墙
-4.更改main.py中KITTI2015数据集的路径
-5.运行main.py（训练时主要就三个文件read_data.py,network.py,main.py）
+1.本库包含5种深度学习方法，运行gc-net psm-net gwc-net hsm-net需要windows环境 ga-net需要ubuntu环境
+2.切换network的网络结构需要手动修改main.py中的部分代码
+3.kitti2015数据集地址：https://pan.baidu.com/s/1FhotVO9nI5GgSy6Vz8VJKg 提取码：7788
+4.whu数据集地址：http://gpcv.whu.edu.cn/data/WHU_MVS_Stereo_dataset.html
+5.运行环境为pytorch
